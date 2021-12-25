@@ -1,0 +1,6 @@
+CREATE ROLE suru PASSWORD 'password' LOGIN;
+
+CREATE
+DATABASE users_api;
+GRANT ALL PRIVILEGES ON DATABASE
+users_api TO suru;
